@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+    margin: 0; /* Remove default margin */
+    padding-top: 70px; /* Adjust based on the navbar height */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top of the viewport */
+    width: 100%; /* Full width of the viewport */
+    max-width: 500px; /* Maximum width of the navbar in pixels */
+    left: 50%; /* Centers the navbar horizontally */
+    top: 0; /* Aligns the navbar to the top of the viewport */
+    transform: translateX(-50%); /* Shifts the navbar left by half its width for centering */
+
+    background-color: rgba(9, 9, 8, 0.6); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+    border-radius: 50px; /* Creates rounded corners for the navbar */
+    padding: 15px 30px; /* Space inside the navbar */
+    z-index: 9999; /* Ensures the navbar stays above other content */
+    backdrop-filter: blur(5px); /* Adds blur effect behind the navbar */
+}
+
+/* Flexbox for internal items */
+.nav-items {
+    display: flex; /* Uses Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    list-style-type: none; /* Removes default bullet points from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.nav-items li {
+    padding: 0 15px; /* Add space around items */
+    position: relative; /* Positioning for pseudo-elements */
+}
+
+.nav-items li:not(:last-child)::after {
+    content: "|"; /* Use a vertical line as a divider */
+    position: absolute;
+    right: -10px; /* Adjust position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #efebeb; /* Color of the divider */
+}
+
+.nav-items li a {
+    font-family: Arial, sans-serif; /* Sets the font for the links */
+    text-decoration: none; /* Removes underlines from links */
+    color: #efebeb; /* Text color of the links */
+    padding: 10px 15px; /* Space inside each link */
+    border-radius: 20px; /* Rounds the corners of each link */
+    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+}
