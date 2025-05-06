@@ -1,5 +1,8 @@
 # RoundedNavBar-Demo
 
+##
+![Nav bar screenshot](https://github.com/user-attachments/assets/a42e865e-c514-436c-b92f-96ccbe78ef7a)
+
 This repo showcases a modern, rounded navigation bar built using HTML and CSS. Designed with responsiveness in mind, it provides a smooth and customizable navigation experience suitable for websites.
 
 ## Features
@@ -10,7 +13,3 @@ This repo showcases a modern, rounded navigation bar built using HTML and CSS. D
 
 ## Usage
 Clone or download this repository to use the rounded navigation bar in your own projects. Modify the HTML and CSS to fit your design needs.
-
-
-##
-![Nav bar screenshot](https://github.com/user-attachments/assets/a42e865e-c514-436c-b92f-96ccbe78ef7a)
