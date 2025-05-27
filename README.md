@@ -1,15 +1,22 @@
 # RoundedNavBar-Demo
 
-#
-![Nav bar screenshot](https://github.com/user-attachments/assets/a42e865e-c514-436c-b92f-96ccbe78ef7a)
+![Navbar Screenshot](https://github.com/user-attachments/assets/a42e865e-c514-436c-b92f-96ccbe78ef7a)
 
-This repo showcases a modern, rounded navigation bar built using HTML and CSS. Designed with responsiveness in mind, it provides a smooth and customizable navigation experience suitable for websites.
+A modern, responsive navigation bar with rounded corners, built using HTML and CSS. This repository provides a sleek and customizable navigation component suitable for any website, with a focus on clean design and ease of integration.
 
 ## Features
-- Rounded pixel perfect corners for a soft, modern look
-- Responsive design for various screen sizes
-- Easy customization for colors, sizes, and layout
-- Already included HTML files with a basic website interface to help you get started on your own website
+- **Pixel-Perfect Rounded Corners**: Smooth, modern aesthetic for a professional look.
+- **Responsive Design**: Adapts seamlessly to various screen sizes, from mobile to desktop.
+- **Highly Customizable**: Easily modify colors, sizes, and layout to match your project's style.
+- **Starter Template**: Includes pre-built HTML files with a basic website interface to jumpstart your development.
 
-## Usage
-Clone or download this repository to use the rounded navigation bar in your own projects. Modify the HTML and CSS to fit your design needs.
+## Getting Started
+
+### Prerequisites
+- A web browser (e.g., Chrome, Firefox, Safari) to view and test the navbar.
+- A text editor (e.g., VS Code, Sublime Text) for customizing the code.
+
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/RoundedNavBar-Demo.git
