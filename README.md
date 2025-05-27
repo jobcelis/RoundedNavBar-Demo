@@ -1,5 +1,4 @@
 # RoundedNavBar-Demo
-
 ##
 ![Nav bar screenshot](https://github.com/user-attachments/assets/a42e865e-c514-436c-b92f-96ccbe78ef7a)
 
