@@ -14,9 +14,4 @@ A modern, responsive navigation bar with rounded corners, built using HTML and C
 
 ### Prerequisites
 - A web browser (e.g., Chrome, Firefox, Safari) to view and test the navbar.
-- A text editor (e.g., VS Code, Sublime Text) for customizing the code.
-
-### Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/RoundedNavBar-Demo.git
+- A text editor (e.g., VS Code) for customizing the code.
